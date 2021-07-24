@@ -68,7 +68,7 @@ const Card = () => {
                 </ul>
                 <p>
                   Interested in state of the art technology. Focused in high
-                  quality code and top-tier development/deployment procedures.
+                  quality code.
                 </p>
               </div>
               <div className="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
