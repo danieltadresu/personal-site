@@ -73,7 +73,7 @@ const Card = () => {
               </div>
               <div className="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
                 <p className="mb-2">Let's build something together!</p>
-                <a class="text-sm font-semibold bg-gray-800 text-gray-300 py-3 px-4 rounded-lg hover:bg-gray-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-700 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900">Contact &rarr;{" "}</a>
+                <a class="cursor-pointer text-sm font-semibold bg-gray-800 text-gray-300 py-3 px-4 rounded-lg hover:bg-gray-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-700 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900">Contact &rarr;{" "}</a>
               </div>
             </div>
           </div>
