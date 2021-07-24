@@ -1,5 +1,3 @@
-import profile from "../../../images/profile.png";
-
 const Card = () => {
   return (
     <div className="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
@@ -8,10 +6,9 @@ const Card = () => {
         <div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
           <div className="max-w-md mx-auto">
             <div>
-              {/* <img src={profile} className="h-7 sm:h-8 rounded-lg rounded-full"/> */}
             </div>
             <div className="pt-6 text-base leading-6 font-semibold sm:text-lg sm:leading-7 tracking-tighter text-gray-800">
-              <p>Hello, I'm Daniel 👋</p>
+              <h6 class="text-opacity-75 order-1 sm:text-3xl sm:leading-none font-bold tracking-tight text-gray-900 mb-4"><span class="text-teal-400">Hello! 👋 <br /></span> I'm Daniel</h6>
             </div>
             <div className="divide-y divide-gray-200">
               <div className="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
@@ -75,16 +72,8 @@ const Card = () => {
                 </p>
               </div>
               <div className="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
-                <p>Let's build something together!</p>
-                <p>
-                  <a
-                    href="https://tailwindcss.com/docs"
-                    className="text-cyan-600 hover:text-cyan-700"
-                  >
-                    {" "}
-                    Contact &rarr;{" "}
-                  </a>
-                </p>
+                <p className="mb-2">Let's build something together!</p>
+                <a class="text-sm font-semibold bg-gray-800 text-gray-300 py-3 px-4 rounded-lg hover:bg-gray-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-700 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900">Contact &rarr;{" "}</a>
               </div>
             </div>
           </div>

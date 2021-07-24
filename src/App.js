@@ -1,10 +1,13 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Card from './components/UI/Card';
-
 const App = () => {
+  const [contact, setContact] = useState(false);
+
   return (
-    <Card />
+    <React.Fragment>
+      <Card />
+    </React.Fragment>    
   );
 };
 
